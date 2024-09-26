@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Pixel Plaza</title>
+        <title>Trending</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -90,8 +90,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-offset-2 col-md-8 text-center">
-                            <h2>Welcome to <span class="blue">Pixel</span><span class="green"> Plaza!</span></h2>
-                            <p>Pixel Plaza is a web app dedicated to sharing your pixel art journey with the internet. Blaze your trail for your journey or witness others pursue theirs!~</p>
+                            <h2>What's Trending</h2>
+                            <p>See what's trending! check out these post that has been bookmarked the highest by the community!~</p>
                         </div>
                     </div>
                 </div>
@@ -101,21 +101,21 @@
 
         
 
-        <div class="main-posts">
+    <div class="main-posts">
             <div class="container">
                 <div class="row">
                     <div class="blog-masonry masonry-true">
                         <div class="post-masonry col-md-4 col-sm-6">
                             <div class="post-thumb">
-                                <img src="images/blue_dusk.png" alt="">
+                                <img src="images/the windmill.png" alt="">
                                 <div class="title-over">
-                                    <h4><a href="#">Blue Dusk</a></h4>
+                                    <h4><a href="#">The windmill</a></h4>
                                 </div>
                                 <div class="post-hover text-center">
                                     <div class="inside">
                                         <i class="fa fa-plus"></i>
                                         <span class="date">25 Jan 2084</span>
-                                        <h4><a href="#">Blue Dusk</a></h4>
+                                        <h4><a href="#">The windmill</a></h4>
                                         <p>Cum sociis natoque penatibus et magnis dis parturient</p>
                                     </div>
                                 </div>
@@ -123,15 +123,15 @@
                         </div> <!-- /.post-masonry -->
                         <div class="post-masonry col-md-4 col-sm-6">
                             <div class="post-thumb">
-                                <img src="images/a stardew valley fanart.png" alt="">
+                                <img src="images/botanists_window.png" alt="">
                                 <div class="title-over">
-                                    <h4><a href="#">Stardew Cabin</a></h4>
+                                    <h4><a href="#">A botanist's window</a></h4>
                                 </div>
                                 <div class="post-hover text-center">
                                     <div class="inside">
                                         <i class="fa fa-plus"></i>
                                         <span class="date">24 Jan 2084</span>
-                                        <h4><a href="#">Stardew Cabin</a></h4>
+                                        <h4><a href="#">A botanist's window</a></h4>
                                         <p>Donec venenatis libero sapien, eu condimentum lacus</p>
                                     </div>
                                 </div>
@@ -139,15 +139,15 @@
                         </div> <!-- /.post-masonry -->
                         <div class="post-masonry col-md-4 col-sm-6">
                             <div class="post-thumb">
-                                <img src="images/coffee and cake.png" alt="">
+                                <img src="images/summer_haze.png" alt="">
                                 <div class="title-over">
-                                    <h4><a href="#">Coffee and Cake</a></h4>
+                                    <h4><a href="#">Summer Haze</a></h4>
                                 </div>
                                 <div class="post-hover text-center">
                                     <div class="inside">
                                         <i class="fa fa-plus"></i>
                                         <span class="date">23 Jan 2084</span>
-                                        <h4><a href="#">Coffee and Cake</a></h4>
+                                        <h4><a href="#">Summer Haze</a></h4>
                                         <p>Sed vitae lacus eget ipsum scelerisque condimentum</p>
                                     </div>
                                 </div>
@@ -155,15 +155,15 @@
                         </div> <!-- /.post-masonry -->
                         <div class="post-masonry col-md-4 col-sm-6">
                             <div class="post-thumb">
-                                <img src="images/1280 x 1920.png" alt="">
+                                <img src="images/phonebg4.png" alt="">
                                 <div class="title-over">
-                                    <h4><a href="#">Cake Alma</a></h4>
+                                    <h4><a href="#">Sakura Bench</a></h4>
                                 </div>
                                 <div class="post-hover text-center">
                                     <div class="inside">
                                         <i class="fa fa-plus"></i>
                                         <span class="date">22 Jan 2084</span>
-                                        <h4><a href="#">Cake Alma</a></h4>
+                                        <h4><a href="#">Sakura Bench</a></h4>
                                         <p>Praesent pharetra blandit ex sed imperdiet</p>
                                     </div>
                                 </div>
@@ -171,15 +171,15 @@
                         </div> <!-- /.post-masonry -->
                         <div class="post-masonry col-md-4 col-sm-6">
                             <div class="post-thumb">
-                                <img src="images/480 x 960.png" alt="">
+                                <img src="images/phonebg6.png" alt="">
                                 <div class="title-over">
-                                    <h4><a href="#">Cursed Apple</a></h4>
+                                    <h4><a href="#">Breezing suburbs</a></h4>
                                 </div>
                                 <div class="post-hover text-center">
                                     <div class="inside">
                                         <i class="fa fa-plus"></i>
                                         <span class="date">21 Jan 2084</span>
-                                        <h4><a href="#">Cursed Apple</a></h4>
+                                        <h4><a href="#">Breezing suburbs</a></h4>
                                         <p>Vestibulum faucibus lacus ac risus efficitur</p>
                                     </div>
                                 </div>
@@ -249,86 +249,6 @@
                                 </div>
                             </div>
                         </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/the windmill.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">The windmill</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">14 Jan 2084</span>
-                                        <h4><a href="#">The windmill</a></h4>
-                                        <p>In aliquet et tellus in iaculis. Ut fermentum quis tellus</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/botanists_window.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">A botanist's window</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">14 Jan 2084</span>
-                                        <h4><a href="#">A botanist's window</a></h4>
-                                        <p>In aliquet et tellus in iaculis. Ut fermentum quis tellus</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/summer_haze.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">Summer Haze</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">14 Jan 2084</span>
-                                        <h4><a href="#">Summer Haze</a></h4>
-                                        <p>In aliquet et tellus in iaculis. Ut fermentum quis tellus</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/phonebg4.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">Sakura Bench</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">14 Jan 2084</span>
-                                        <h4><a href="#">Sakura Bench</a></h4>
-                                        <p>In aliquet et tellus in iaculis. Ut fermentum quis tellus</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/phonebg6.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">Breezing suburbs</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">14 Jan 2084</span>
-                                        <h4><a href="#">Breezing Suburbs</a></h4>
-                                        <p>In aliquet et tellus in iaculis. Ut fermentum quis tellus</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
                     </div>
                 </div>
             </div>
@@ -348,9 +268,6 @@
                 </div>
             </div>
         </footer>
-
-
-
 
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/min/plugins.min.js"></script>

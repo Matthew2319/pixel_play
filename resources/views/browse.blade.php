@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Pixel Plaza</title>
+        <title>Browse</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -90,18 +90,27 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-offset-2 col-md-8 text-center">
-                            <h2>Welcome to <span class="blue">Pixel</span><span class="green"> Plaza!</span></h2>
-                            <p>Pixel Plaza is a web app dedicated to sharing your pixel art journey with the internet. Blaze your trail for your journey or witness others pursue theirs!~</p>
+                            <h2>Browse</h2>
+                            <p>Looking for something? try browsing for it!</p>
                         </div>
+                    </div>
+                    <div class="row">
+                        <form action="#" method="post" class="subscribe-form">
+                            <fieldset class="col-md-offset-4 col-md-3 col-sm-8">
+                                <input type="email" id="subscribe-email" placeholder="Enter what you're looking for...">
+                            </fieldset>
+                            <fieldset class="col-md-5 col-sm-4">
+                                <input type="submit" id="subscribe-submit" class="button white" value="Search">
+                            </fieldset>
+                        </form>
                     </div>
                 </div>
             </div> <!-- .site-banner -->
         </div>
     </div>
 
-        
 
-        <div class="main-posts">
+    <div class="main-posts">
             <div class="container">
                 <div class="row">
                     <div class="blog-masonry masonry-true">
@@ -249,90 +258,11 @@
                                 </div>
                             </div>
                         </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/the windmill.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">The windmill</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">14 Jan 2084</span>
-                                        <h4><a href="#">The windmill</a></h4>
-                                        <p>In aliquet et tellus in iaculis. Ut fermentum quis tellus</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/botanists_window.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">A botanist's window</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">14 Jan 2084</span>
-                                        <h4><a href="#">A botanist's window</a></h4>
-                                        <p>In aliquet et tellus in iaculis. Ut fermentum quis tellus</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/summer_haze.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">Summer Haze</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">14 Jan 2084</span>
-                                        <h4><a href="#">Summer Haze</a></h4>
-                                        <p>In aliquet et tellus in iaculis. Ut fermentum quis tellus</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/phonebg4.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">Sakura Bench</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">14 Jan 2084</span>
-                                        <h4><a href="#">Sakura Bench</a></h4>
-                                        <p>In aliquet et tellus in iaculis. Ut fermentum quis tellus</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/phonebg6.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">Breezing suburbs</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">14 Jan 2084</span>
-                                        <h4><a href="#">Breezing Suburbs</a></h4>
-                                        <p>In aliquet et tellus in iaculis. Ut fermentum quis tellus</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
                     </div>
                 </div>
             </div>
         </div>
+
 
         <footer class="site-footer">
             <div class="container">
@@ -348,7 +278,7 @@
                 </div>
             </div>
         </footer>
-
+                   
 
 
 

@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Pixel Plaza</title>
+        <title>About</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -90,8 +90,64 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-offset-2 col-md-8 text-center">
-                            <h2>Welcome to <span class="blue">Pixel</span><span class="green"> Plaza!</span></h2>
-                            <p>Pixel Plaza is a web app dedicated to sharing your pixel art journey with the internet. Blaze your trail for your journey or witness others pursue theirs!~</p>
+                            <h2>About</h2>
+                            <p>Be sure to read our terms of service and community guidelines.</p>
+                            <br>
+                            <h2>Terms of Service</h2>
+                            <br>
+                            <h1>1. Acceptance of Terms</h1>
+                            <p>By creating an account or using the platform, you agree to abide by these Terms of Service. If you do not agree, please do not use the platform.</p>
+
+                            <br>
+                            <h1>2. User Content</h1>
+                            <ul>
+                            <li><strong>Ownership</strong>: You retain all rights to the pixel art you create and share on the platform. By posting, you grant the platform a non-exclusive, royalty-free license to display and share your content.</li>
+                            <li><strong>Responsibility</strong>: You are responsible for the content you post. Do not share content that infringes on others' rights or is illegal, harmful, or offensive.</li>
+                            </ul>
+
+                            <br>
+                            <h1>3. Prohibited Activities</h1>
+                            <ul>
+                             <li><strong>Hacking and Abuse</strong>: Do not attempt to hack, disrupt, or abuse the platform or its users.</li>
+                            <li><strong>Spam</strong>: Avoid posting repetitive, irrelevant, or commercial content.</li>
+                            </ul>
+
+                            <br>
+                            <h1>4. Account Suspension/Termination</h1>
+                            <p>We reserve the right to suspend or terminate accounts that violate these Terms or engage in prohibited activities.</p>
+
+                            <br>
+                            <h1>5. Changes to Terms</h1>
+                            <p>We may update these Terms from time to time. Continued use of the platform constitutes acceptance of any changes.</p>
+
+
+                            <br>
+                                <h2>Community Guidelines</h2>
+                            <br>
+                                <h1>1. Be Respectful</h1>
+                                <ul>
+                                <li>Treat all users with respect. Harassment, hate speech, or discrimination will not be tolerated.</li>
+                                <li>Constructive criticism is welcome, but be kind in your feedback.</li>
+                                </ul>
+
+                                <br>
+                                <h1>2. Originality and Attribution</h1>
+                                <ul>
+                                <li>Share only your original pixel art or art you have permission to post.</li>
+                                <li>If you are inspired by someone else's work, give credit where it's due.</li>
+                                </ul>
+                                <br>
+                                <h1>3. Appropriate Content</h1>
+                                <ul>
+                                <li>Keep content appropriate for all audiences. No explicit, violent, or illegal content.</li>
+                                <li>Avoid posting anything that might be considered offensive or harmful.</li>
+                                </ul>
+                                <br>
+                                <h1>4. Report Issues</h1>
+                                <p>If you see something that violates these guidelines, report it to the moderators.</p>
+                                <br>
+                                <p>By using the platform, you agree to follow these Terms of Service and Community Guidelines. Let’s keep the community positive and creative!</p>
+
                         </div>
                     </div>
                 </div>
@@ -99,242 +155,7 @@
         </div>
     </div>
 
-        
-
-        <div class="main-posts">
-            <div class="container">
-                <div class="row">
-                    <div class="blog-masonry masonry-true">
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/blue_dusk.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">Blue Dusk</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">25 Jan 2084</span>
-                                        <h4><a href="#">Blue Dusk</a></h4>
-                                        <p>Cum sociis natoque penatibus et magnis dis parturient</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/a stardew valley fanart.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">Stardew Cabin</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">24 Jan 2084</span>
-                                        <h4><a href="#">Stardew Cabin</a></h4>
-                                        <p>Donec venenatis libero sapien, eu condimentum lacus</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/coffee and cake.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">Coffee and Cake</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">23 Jan 2084</span>
-                                        <h4><a href="#">Coffee and Cake</a></h4>
-                                        <p>Sed vitae lacus eget ipsum scelerisque condimentum</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/1280 x 1920.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">Cake Alma</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">22 Jan 2084</span>
-                                        <h4><a href="#">Cake Alma</a></h4>
-                                        <p>Praesent pharetra blandit ex sed imperdiet</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/480 x 960.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">Cursed Apple</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">21 Jan 2084</span>
-                                        <h4><a href="#">Cursed Apple</a></h4>
-                                        <p>Vestibulum faucibus lacus ac risus efficitur</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/1080 x 2400.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">Brew of Storm</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">20 Jan 2084</span>
-                                        <h4><a href="#">Brew of Storm</a></h4>
-                                        <p>Morbi placerat pellentesque tortor, sed auctor dolor</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/720 x 1280.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">Abandoned Lighthouse</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">15 Jan 2084</span>
-                                        <h4><a href="#">Abandoned Lighthouse</a></h4>
-                                        <p>Phasellus eu sapien sagittis, sodales neque ac</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/early summer vibe.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">Early Summer</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">14 Jan 2084</span>
-                                        <h4><a href="#">Early Summer</a></h4>
-                                        <p>In aliquet et tellus in iaculis. Ut fermentum quis tellus</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/desktop wallpaper.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">A single star</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">13 Jan 2084</span>
-                                        <h4><a href="#">A single star</a></h4>
-                                        <p>Fusce ullamcorper diam vel arcu scelerisque</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/the windmill.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">The windmill</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">14 Jan 2084</span>
-                                        <h4><a href="#">The windmill</a></h4>
-                                        <p>In aliquet et tellus in iaculis. Ut fermentum quis tellus</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/botanists_window.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">A botanist's window</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">14 Jan 2084</span>
-                                        <h4><a href="#">A botanist's window</a></h4>
-                                        <p>In aliquet et tellus in iaculis. Ut fermentum quis tellus</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/summer_haze.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">Summer Haze</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">14 Jan 2084</span>
-                                        <h4><a href="#">Summer Haze</a></h4>
-                                        <p>In aliquet et tellus in iaculis. Ut fermentum quis tellus</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/phonebg4.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">Sakura Bench</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">14 Jan 2084</span>
-                                        <h4><a href="#">Sakura Bench</a></h4>
-                                        <p>In aliquet et tellus in iaculis. Ut fermentum quis tellus</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                        <div class="post-masonry col-md-4 col-sm-6">
-                            <div class="post-thumb">
-                                <img src="images/phonebg6.png" alt="">
-                                <div class="title-over">
-                                    <h4><a href="#">Breezing suburbs</a></h4>
-                                </div>
-                                <div class="post-hover text-center">
-                                    <div class="inside">
-                                        <i class="fa fa-plus"></i>
-                                        <span class="date">14 Jan 2084</span>
-                                        <h4><a href="#">Breezing Suburbs</a></h4>
-                                        <p>In aliquet et tellus in iaculis. Ut fermentum quis tellus</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.post-masonry -->
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <footer class="site-footer">
+    <footer class="site-footer">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
@@ -348,8 +169,6 @@
                 </div>
             </div>
         </footer>
-
-
 
 
         <script src="js/vendor/jquery-1.10.2.min.js"></script>
