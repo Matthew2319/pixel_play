@@ -18,24 +18,22 @@ class CustomerController extends Controller
     }
 
     public function store(Request $request)
-    {
+    {   
         // Validate the request data
         $validated = $request->validate([
             'title' => 'required|string|max:255',
             'desc' => 'required|string',
-            'user_id' => 'integer'
+            'user_id' => 'required|integer',
         ]);
 
-        // Store the data in the database
+        // Store the validated data in the database
         Post::create([
             'title' => $validated['title'],
             'desc' => $validated['desc'],
-            'user_id' => $validated['user_id'],
+            'user_id' => $validated['user_id']
         ]);
 
-        // Redirect back or to another page
         return redirect()->back()->with('success', 'Post created successfully!');
-    
-}
+    }
 
 }

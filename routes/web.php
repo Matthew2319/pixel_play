@@ -25,6 +25,8 @@ Route::get('/newer', function () {
     return view('newer');
 })->name('newer');
 
+Route::post('/adminposts', [CustomerController::class, 'store'])->name('adminposts');
+
 
 //for Administrators
 Route::middleware(['auth:sanctum','verified','rolecheck:admin'])->group(function(){
@@ -37,6 +39,7 @@ Route::middleware(['auth:sanctum','verified','rolecheck:admin'])->group(function
 Route::middleware(['auth:sanctum','verified'])->group(function(){
     Route::get('/uploadpost', [CustomerController::class, 'index'])->name('uploadpost');
     Route::get('/adminedit', [CustomerController::class, 'dash'])->name('adminedit');
+    
 });
 
 //Posts
