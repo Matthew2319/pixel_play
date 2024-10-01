@@ -15,18 +15,19 @@
                     <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
-                    <x-nav-link href="{{ route('customerposts') }}" :active="request()->routeIs('dashboard')">
-                        {{ __('Upload as User') }}
+                    <x-nav-link href="{{ route('uploadpost') }}" :active="request()->routeIs('dashboard')">
+                        {{ __('Upload') }}
                     </x-nav-link>
                     <x-nav-link href="{{ route('adminposts') }}" :active="request()->routeIs('dashboard')">
-                        {{ __('Posts as Admin') }}
+                        {{ __('List of Posts') }}
                     </x-nav-link>
-                    <x-nav-link href="{{ route('adminadd') }}" :active="request()->routeIs('dashboard')">
+                    
+                    <!-- <x-nav-link href="{{ route('adminadd') }}" :active="request()->routeIs('dashboard')">
                         {{ __('Upload as Admin') }}
                     </x-nav-link>
                     <x-nav-link href="{{ route('adminedit') }}" :active="request()->routeIs('dashboard')">
                         {{ __('Edit as Admin') }}
-                    </x-nav-link>
+                    </x-nav-link> -->
                 </div>
             </div>
 

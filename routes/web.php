@@ -34,8 +34,8 @@ Route::middleware(['auth:sanctum','verified','rolecheck:admin'])->group(function
 });
 
 //for Authenticated Users
-Route::middleware(['auth:sanctum','verified','rolecheck:customer'])->group(function(){
-    Route::get('/customerposts', [CustomerController::class, 'index'])->name('customerposts');
+Route::middleware(['auth:sanctum','verified'])->group(function(){
+    Route::get('/uploadpost', [CustomerController::class, 'index'])->name('uploadpost');
 });
 
 Route::middleware([
