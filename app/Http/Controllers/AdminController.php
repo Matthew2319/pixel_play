@@ -14,7 +14,8 @@ class AdminController extends Controller
     }
 
     public function dash(){
-        return view('dashboard');
+        $posts = Post::all();
+        return view('dashboard',compact('posts'));
     }
 
     public function add(){

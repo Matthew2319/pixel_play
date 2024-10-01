@@ -17,6 +17,11 @@ class CustomerController extends Controller
         return view('adminedit',compact('users'));
     }
 
+    public function dashes(){
+        $posts = Post::all();
+        return view('dashboard',compact('posts'));
+    }
+
     public function store(Request $request)
     {   
         // Validate the request data
