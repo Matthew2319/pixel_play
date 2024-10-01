@@ -5,5 +5,16 @@
             {{ __('Edit') }}
         </h2>
     </x-slot>
+    <div>
+    <table>
+@foreach ($users as $user)
+<tr>
+<td>{{$user->name}}</td>
+<td>{{$user->email}}</td>
+<td>{{$user->created_at->diffForHumans()}}</td>
+</tr>
+@endforeach
+</table>
+</div>
 
 </x-app-layout>
