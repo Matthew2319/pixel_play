@@ -29,6 +29,8 @@ Route::get('/newer', function () {
 //for Administrators
 Route::middleware(['auth:sanctum','verified','rolecheck:admin'])->group(function(){
     Route::get('/adminposts', [AdminController::class, 'index'])->name('adminposts');
+    Route::get('/adminadd', [AdminController::class, 'add'])->name('adminadd');
+    Route::get('/adminedit', [AdminController::class, 'edit'])->name('adminedit');
 });
 
 //for Authenticated Users
