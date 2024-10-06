@@ -16,16 +16,16 @@
             <tr>
     <td>Title</td>
     <td>Description</td>
-    <td>User ID</td>
     <td>Created at</td>
     </tr>
     @foreach ($posts as $post)
+    @if ($post->user_id == Auth::user()->id)
     <tr>
     <td>{{$post->title}}</td>
     <td>{{$post->desc}}</td>
-    <td>{{$post->user_id}}</td>
     <td>{{$post->created_at->diffForHumans()}}</td>
     </tr>
+    @endif
     @endforeach
                 </table>
             </div>

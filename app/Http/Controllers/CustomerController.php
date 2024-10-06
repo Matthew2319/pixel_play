@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Post;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class CustomerController extends Controller
 {
@@ -41,4 +42,12 @@ class CustomerController extends Controller
         return redirect()->back()->with('success', 'Post created successfully!');
     }
 
+
+    // public function showDashboard()
+    // {
+    // // Filter posts by the 'user_id' column that matches the authenticated user's ID
+    // $posts = Post::where('user_id', Auth::id())->get();
+
+    // return view('dashboard', ['posts' => $posts]);
+    // }
 }
