@@ -19,7 +19,7 @@ class CustomerController extends Controller
     }
 
     public function dashes(){
-        $posts = Post::all();
+        $posts = Post::latest()->paginate(5);
         return view('dashboard',compact('posts'));
     }
 
@@ -29,14 +29,17 @@ class CustomerController extends Controller
         $validated = $request->validate([
             'title' => 'required|string|max:255',
             'desc' => 'required|string',
-            'user_id' => 'required|integer',
+            // 'user_id' => 'required|integer',
+        ],[
+            'title.required' => 'please enter the title',
+            'desc.required' => 'please enter the description'
         ]);
 
         // Store the validated data in the database
         Post::create([
             'title' => $validated['title'],
             'desc' => $validated['desc'],
-            'user_id' => $validated['user_id']
+            'user_id' => Auth::user()->id
         ]);
 
         return redirect()->back()->with('success', 'Post created successfully!');

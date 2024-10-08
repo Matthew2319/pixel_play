@@ -9,6 +9,15 @@
     <form action="{{ route('adminposts') }}" method="POST" id="postForm">
     @csrf
     <div class="mb-4">
+        @if ($errors->any())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                <li> {{$error}}</li>
+                @endforeach
+            </ul>
+        </div>
+        @endif
         <label for="title" class="block text-gray-700 font-bold mb-2">Title</label>
         <input type="text" name="title" id="title" class="w-full border rounded px-4 py-2 @error('title') border-red-500 @enderror" value="{{ old('title') }}" required>
         @error('title')
@@ -24,13 +33,13 @@
         @enderror
     </div>
 
-    <div class="mb-4">
+    <!-- <div class="mb-4">
         <label for="user_id" class="block text-gray-700 font-bold mb-2">Desc ID</label>
-        <input type="text" name="user_id" id="user_id" class="w-full border rounded px-4 py-2 @error('desc_id') border-red-500 @enderror" value="{{ old('user_id') }}" required>
+        <input type="number" name="user_id" id="user_id" class="w-full border rounded px-4 py-2 @error('desc_id') border-red-500 @enderror" value="{{ old('user_id') }}" required>
         @error('user_id')
             <p class="text-red-500 text-sm mt-2">{{ $user_id }}</p>
         @enderror
-    </div>
+    </div> -->
 
 
     <div class="flex justify-end mt-8">

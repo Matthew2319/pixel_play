@@ -4,17 +4,18 @@ namespace App\Http\Controllers;
 
 use App\Models\Post;
 use Illuminate\Http\Request;
+use Illuminate\Pagination\Paginator; 
 
 class AdminController extends Controller
 {
     //
     public function index(){
-        $posts = Post::all();
+        $posts = Post::latest()->paginate(5);
         return view('adminposts',compact('posts'));
     }
 
     public function dash(){
-        $posts = Post::all();
+        $posts = Post::latest()->paginate(5);
         return view('dashboard',compact('posts'));
     }
 
