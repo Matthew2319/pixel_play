@@ -10,14 +10,6 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-    <div class="container">
-        <div class="col-md-4">
-
-       
-        <div class="card">
-            <div class="card-header">All Post</div>
-            <div class="card-body">
-
             <table class="table">
                 <thead>
                 <tr>
@@ -46,16 +38,13 @@
    
     </tbody>
                     </table>
-                    {{ $posts->links() }}
-                </div>
-            </div>
-        </div>
+                   
     </div>
-
+    
     </div>
+    
     </div>
-    </div>
-
+    {{ $posts->links() }}
 <!-- 
     <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Email address</label>

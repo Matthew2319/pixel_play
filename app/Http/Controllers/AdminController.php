@@ -10,12 +10,12 @@ class AdminController extends Controller
 {
     //
     public function index(){
-        $posts = Post::latest()->paginate(5);
+        $posts = Post::latest()->paginate(10);
         return view('adminposts',compact('posts'));
     }
 
     public function dash(){
-        $posts = Post::latest()->paginate(5);
+        $posts = Post::latest()->paginate(10);
         return view('dashboard',compact('posts'));
     }
 

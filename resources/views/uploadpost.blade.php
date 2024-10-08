@@ -9,6 +9,7 @@
     <form action="{{ route('adminposts') }}" method="POST" id="postForm">
     @csrf
     <div class="mb-4">
+
         @if ($errors->any())
         <div class="alert alert-danger">
             <ul>
@@ -18,18 +19,20 @@
             </ul>
         </div>
         @endif
+        
         <label for="title" class="block text-gray-700 font-bold mb-2">Title</label>
-        <input type="text" name="title" id="title" class="w-full border rounded px-4 py-2 @error('title') border-red-500 @enderror" value="{{ old('title') }}" required>
+        <input type="text" name="title" id="title" class="w-full border rounded px-4 py-2" value="{{ old('title') }}" >
         @error('title')
-            <p class="text-red-500 text-sm mt-2">{{ $title }}</p>
+            <p class="text-red-500 text-sm mt-2">{{ ' ' }}</p>
         @enderror
+        
     </div>
 
     <div class="mb-4">
         <label for="desc" class="block text-gray-700 font-bold mb-2">Description</label>
-        <textarea name="desc" id="desc" class="w-full border rounded px-4 py-2 @error('desc') border-red-500 @enderror" rows="5" required>{{ old('desc') }}</textarea>
+        <textarea name="desc" id="desc" class="w-full border rounded px-4 py-2" >{{ old('desc') }}</textarea>
         @error('desc')
-            <p class="text-red-500 text-sm mt-2">{{ $desc }}</p>
+            <p class="text-red-500 text-sm mt-2">{{ ' ' }}</p>
         @enderror
     </div>
 
